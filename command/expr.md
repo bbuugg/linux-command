@@ -37,6 +37,9 @@ expr(选项)(参数)
 ```shell
 result=`expr 2 + 3`
 result=$(expr $no1 + 5)
+
+expr 1 + 2
+expr length "test" # 字符串长度
 ```
 
 
