@@ -1,7 +1,11 @@
 killall
 ===
 
-使用进程的名称来杀死一组进程
+使用进程的名称来杀死一组进程，如果命令找不到可以执行下面命令安装
+
+```shell
+apt-get install psmisc # ubuntu
+```
 
 ## 补充说明
 

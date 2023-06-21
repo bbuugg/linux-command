@@ -122,6 +122,7 @@ ifconfig eth0 mtu 1500    #设置能通过的最大数据包大小为 1500 bytes
 ifconfig   #处于激活状态的网络接口
 ifconfig -a  #所有配置的网络接口，不论其是否激活
 ifconfig eth0  #显示eth0的网卡信息
+ifconfig eth0 192.168.1.99 broadcast 192.168.1.255 netmask 255.255.255.0 [up] # up可以直接激活网卡
 ```
 
 
