@@ -29,3 +29,9 @@ ssh-keygen(选项)
 -y: 读取私钥输出公钥。
 ```
 
+### 示例
+
+```shell
+ssh-keygen -t rsa -C foo@mail.com
+ssh-keygen -A
+```

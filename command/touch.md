@@ -50,3 +50,7 @@ touch file{1..5}.txt
 ```shell
 echo "job 1" > job1.md
 ```
+
+```shell
+touch app.{js,css} # 创建app.js 和app.css
+```

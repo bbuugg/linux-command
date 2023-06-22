@@ -187,4 +187,16 @@ ps -aux > ps001.txt
 
 输出指定的字段
 
+### 扩展
 
+```shell
+pgrep php-fpm | xargs kill  # 批量结束进程
+ps -ef | grep "关键字" | grep -v "关键字" | cut -c 9-15 | xargs kill # 批量结束进程
+ps -ef | grep redis # 查找相关进程
+ls -lp /proc/123/cwd # 根据pid查看cwd
+ps -ylC php-fpm --sort:rss  # 按照虚拟内存排序，--sort:-%cpu 按照cpu降序
+ps -fe |grep "php-fpm"|grep "pool"|wc -l
+ps -e -o 'pid,comm,args,pcpu,rsz,vsz,stime,user,uid'|grep www|sort -nrk5 # 查看当前php-fpm进程的内存占用情况及启动时间
+ps --no-headers -o "rss,cmd" -C php-fpm | awk '{ sum+=$1 } END { printf ("%d%s\n", sum/NR/1024,"M") }'  # 查看当前php-fpm进程平均占用内存情况
+ps -ef | grep 进程名 | awk '{ print $2 }' | xargs kill -9 # 匹配进程名结束进程
+```

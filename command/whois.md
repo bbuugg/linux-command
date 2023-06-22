@@ -1,6 +1,8 @@
 whois
 ===
 
+用来查找并显示指定用户账号、域名相关信息，包括域名注册时间、拥有者、邮箱等，类似命令：tracepath、host、nslookup、who、pwd
+
 ## 介绍
 
 whois是Linux/Unix环境下的命令，按字面意思就是问“他是谁？”，通过对域名的检索, 可以反馈回域名的注册信息，包括持有人，管理资料以及技术联络资料, 也包括该域名的域名服务器。但是在世界上有几个主要的whois服务器，它们是 whois.RIPE.net、whois.LACNIC.net、whois.APNIC.net、whois.ARIN.net，分别在各大洲。
@@ -13,10 +15,6 @@ whois的查询是逐级查询，比如当我们查询blogchina.com的时候通�
 ```shell
 whois[选择参数][必要参数]
 ```
-
-## 功能
-
-用来查找并显示指定用户账号、域名相关信息，包括域名注册时间、拥有者、邮箱等，类似命令：tracepath、host、nslookup、who、pwd。
 
 ## 参数：
 

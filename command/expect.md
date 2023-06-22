@@ -215,3 +215,21 @@ do
 EOF
 done
 ```
+
+git推送
+
+```shell
+#!/usr/bin/expect
+set user "git账号"
+set pass "密码"
+set timeout 10
+
+spawn git pull # spawn启动新的进程
+expect "Username*" # 匹配username*
+send "$user\n" #发送账号到进程内
+expect "Password*" # 匹配password
+send "$pass\n" #发送密码到进程内
+expect eof
+
+expect -f pull.sh #运行脚本
+```

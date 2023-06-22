@@ -52,6 +52,8 @@ ps -ef |tee info_a.log info_b.log
 
 # 将进程信息通过管道输出到标准输出（终端）并追加写入到文件中。
 ps -ef |tee -a info_a.log info_b.log
+
+tee back.sql
 ```
 
 ### 注意

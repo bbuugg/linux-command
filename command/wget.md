@@ -333,5 +333,9 @@ wget ftp-url
 wget --ftp-user=USERNAME --ftp-password=PASSWORD url
 ```
 
+**递归下载**
 
-
+```shell
+wget -r -p -np -k http://archives.fedoraproject.org/pub/archive/epel/5Server/x86_64/
+wget -m -e rebots=off -k -E 'http://baidu,com'
+```

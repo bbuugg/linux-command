@@ -1,7 +1,7 @@
 zgrep
 ===
 
-使用正则表达式搜索压缩包中文件，支持 bzip2，gzip，lzip， xz 等等。
+使用正则表达式搜索压缩包中文件，支持 bzip2，gzip，lzip， xz 等等
 
 ##  例子
 

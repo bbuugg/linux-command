@@ -326,4 +326,12 @@ $ rsync -av --include="*.txt" --exclude='*' source/ destination
 
 上面命令指定同步时，排除所有文件，但是会包括 `TXT` 文件。
 
+**斜线区别**
 
+```shell
+rsync -auzvv -e 'ssh -p 24' root@chengyao.xyz:/root/simple/ ./simple/
+```
+
+注意： 源路径中末尾如果没有斜线，则会同步改文件夹到本地./simple/目录，对应目录为 ./simple/simple，如果有斜线，则会同步所有所有文件到./simple目录，注意默认同步隐藏文件，如果源路径末尾加上了*，即root@chengyao.xyz:/root/simple/*，则同步除了隐藏文件的所有文件。
+
+> 参考：http://www.ruanyifeng.com/blog/2020/08/rsync.html
