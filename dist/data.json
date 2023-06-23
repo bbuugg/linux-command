@@ -709,6 +709,11 @@
     "p": "/expand",
     "d": "将文件的制表符转换为空白字符"
   },
+  "expect": {
+    "n": "expect",
+    "p": "/expect",
+    "d": "expect是一个自动化交互套件，主要应用于执行命令和程序时，系统以交互形式要求输入指定字符串，实现交互通信。"
+  },
   "export": {
     "n": "export",
     "p": "/export",
@@ -1237,7 +1242,7 @@
   "killall": {
     "n": "killall",
     "p": "/killall",
-    "d": "使用进程的名称来杀死一组进程"
+    "d": "使用进程的名称来杀死一组进程，如果命令找不到可以执行下面命令安装```shellapt-get install psmisc # ubuntu```"
   },
   "last": {
     "n": "last",
@@ -1399,6 +1404,11 @@
     "p": "/lpstat",
     "d": "显示CUPS中打印机的状态信息"
   },
+  "lrzsz": {
+    "n": "lrzsz",
+    "p": "/lrzsz",
+    "d": "在ssh终端中上传和下载文件"
+  },
   "ls": {
     "n": "ls",
     "p": "/ls",
@@ -1423,6 +1433,16 @@
     "n": "lscpu",
     "p": "/lscpu",
     "d": "显示有关CPU架构的信息"
+  },
+  "lslogins": {
+    "n": "lslogins",
+    "p": "/lslogins",
+    "d": "lslogins命令会展示出系统中现有用户的相关信息该命令检查wtmp和btmp日志，/etc/shadow（如果需要）和 /etc/passwd并输出所需数据。"
+  },
+  "lsmem": {
+    "n": "lsmem",
+    "p": "/lsmem",
+    "d": "list the ranges of available memory with their online status显示内存状态"
   },
   "lsmod": {
     "n": "lsmod",
@@ -1554,6 +1574,11 @@
     "p": "/mke2fs",
     "d": "创建磁盘分区上的“etc2/etc3”文件系统"
   },
+  "mkfifo": {
+    "n": "mkfifo",
+    "p": "/mkfifo",
+    "d": "mkfifo 命令用于创建有名管道（Named Pipe）"
+  },
   "mkfs": {
     "n": "mkfs",
     "p": "/mkfs",
@@ -1609,6 +1634,11 @@
     "p": "/mtools",
     "d": "显示mtools支持的指令"
   },
+  "mtr": {
+    "n": "mtr",
+    "p": "/mtr",
+    "d": "My traceroute"
+  },
   "mv": {
     "n": "mv",
     "p": "/mv",
@@ -1663,6 +1693,11 @@
     "n": "neofetch",
     "p": "/neofetch",
     "d": "显示带有发行徽标的系统信息的工具"
+  },
+  "netcat": {
+    "n": "netcat",
+    "p": "/netcat",
+    "d": "netcat 简称 nc，安全界叫它瑞士军刀"
   },
   "nethogs": {
     "n": "nethogs",
@@ -1918,6 +1953,11 @@
     "n": "pushd",
     "p": "/pushd",
     "d": "将目录添加到目录堆栈顶部。"
+  },
+  "put": {
+    "n": "put",
+    "p": "/put",
+    "d": "使用lftp登录ftp服务器之后，可以使用put指令将文件上传到服务器"
   },
   "pv": {
     "n": "pv",
@@ -2514,6 +2554,11 @@
     "p": "/tcpdump",
     "d": "一款sniffer工具，是Linux上的抓包工具，嗅探器"
   },
+  "tcpkali": {
+    "n": "tcpkali",
+    "p": "/tcpkali",
+    "d": "四层TCP协议测试利器"
+  },
   "tcpreplay": {
     "n": "tcpreplay",
     "p": "/tcpreplay",
@@ -2809,6 +2854,11 @@
     "p": "/vmstat",
     "d": "显示虚拟内存状态"
   },
+  "vnstat": {
+    "n": "vnstat",
+    "p": "/vnstat",
+    "d": "监控和记录网络流量"
+  },
   "volname": {
     "n": "volname",
     "p": "/volname",
@@ -2868,6 +2918,11 @@
     "n": "whoami",
     "p": "/whoami",
     "d": "打印当前有效的用户ID对应的名称"
+  },
+  "whois": {
+    "n": "whois",
+    "p": "/whois",
+    "d": "用来查找并显示指定用户账号、域名相关信息，包括域名注册时间、拥有者、邮箱等，类似命令：tracepath、host、nslookup、who、pwd"
   },
   "write": {
     "n": "write",
@@ -2953,6 +3008,11 @@
     "n": "zfore",
     "p": "/zfore",
     "d": "强制为gzip格式的压缩文件添加.gz后缀"
+  },
+  "zgrep": {
+    "n": "zgrep",
+    "p": "/zgrep",
+    "d": "使用正则表达式搜索压缩包中文件，支持 bzip2，gzip，lzip， xz 等等"
   },
   "zip": {
     "n": "zip",
