@@ -52,28 +52,28 @@ Linux localhost 2.6.18-348.6.1.el5 #1 SMP Tue May 21 15:34:22 EDT 2013 i686 i686
 
 ```shell
 # 分别列出信息
-[root@localhost ~]# uname -m
+[root@localhost ~]# uname -m # 显示机器硬件名称　显示i686说明你安装了32位操作系统　　　显示 x86_64说明你安装了64位操作系统
 i686
 
-[root@localhost ~]# uname -n
+[root@localhost ~]# uname -n # 显示网络节点上的主机名
 localhost
 
-[root@localhost ~]# uname -r
+[root@localhost ~]# uname -r # 显示内核发行号
 2.6.18-4-686
 
-[root@localhost ~]# uname -s
+[root@localhost ~]# uname -s # 显示内核名称
 Linux
 
-[root@localhost ~]# uname -v
+[root@localhost ~]# uname -v # 显示内核版本号
 #1 SMP Tue May 21 15:34:22 EDT 2013
 
-[root@localhost ~]# uname -p
+[root@localhost ~]# uname -p # 显示处理器类型
 i686
 
-[root@localhost ~]# uname -i
+[root@localhost ~]# uname -i # 显示硬件平台
 i386
 
-[root@localhost ~]# uname -o
+[root@localhost ~]# uname -o # 操作系统
 GNU/Linux
 ```
 

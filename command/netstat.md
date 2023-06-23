@@ -129,6 +129,7 @@ netstat -r
 
 ```shell
 netstat -ap | grep ssh
+netstat -antp | grep ssh
 ```
 
 找出运行在指定端口的进程：

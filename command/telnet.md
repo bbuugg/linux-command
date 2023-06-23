@@ -56,7 +56,7 @@ Password:
 Login incorrect
 ```
 
-一般情况下不允许root从远程登录，可以先用普通账号登录，然后再用su -切到root用户。
+退出 `ctrl` + `]` 再按`ctrl` + `d` 或者输入 `quit`，一般情况下不允许root从远程登录，可以先用普通账号登录，然后再用su -切到root用户。
 
 ```shell
 $ telnet 192.168.188.132
@@ -133,5 +133,3 @@ telnet 23/udp
 ```
 service xinetd restart
 ```
-
-
